@@ -32,6 +32,16 @@ a {color: darkgray;}
 
 .titles {font-weight: bold;}
 
+@media screen and (max-device-width: 320px){
+    .sectionheaders {float: none;
+                    width: 100%;
+                    border-bottom: 1px solid white;}
+    .sections {float: none;
+              border-left: none;
+              width: 100%;}
+     img {display: none;}
+}
+
 @media screen and (max-width: 550px){
     .sectionheaders {float: none;
                     width: 100%;
