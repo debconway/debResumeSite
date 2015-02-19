@@ -7,7 +7,8 @@ a {color: darkgray;}
            margin-left: auto;
            margin-right: auto;}
 
-.pagetitle {border-bottom: 1px solid white;}
+.pagetitle {border-bottom: 1px solid white;
+            text-shadow: 2px 2px 1px black;}
 
 .mypic {float: right; 
         margin: 0px 25px 25px 25px;
@@ -22,7 +23,8 @@ a {color: darkgray;}
                  padding-right: 1%;
                  clear: both;
                  margin-top: 0px;
-                 margin-bottom: 0px;}
+                 margin-bottom: 0px;
+				 text-shadow: 1px 1px  1px black;}
 
 .sections {width: 82%;
            float: right; 
@@ -30,7 +32,8 @@ a {color: darkgray;}
            padding-right: 1%;
            border-left: 1px solid white;}
 
-.titles {font-weight: bold;}
+.titles {font-weight: bold;
+         text-shadow: 1px 1px 1px black;}
 
 @media screen and (max-device-width: 320px){
     .sectionheaders {float: none;
