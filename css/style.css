@@ -1,15 +1,16 @@
 body {background-image: url(../images/grey_wash_wall.png);
-      color: white;}
+      color: white;
+	  font-size: 1.15em;}
 
 a {color: darkgray;}
 
-.wholedoc {max-width: 800px;
+#wholedoc {max-width: 900px;
            margin-left: auto;
            margin-right: auto;}
 
-.pagetitle {border-bottom: 1px solid white;}
+#pagetitle {border-bottom: 1px solid white;}
 
-.mypic {float: right; 
+#mypic {float: right; 
         margin: 0px 25px 25px 25px;
         padding: 10px; 
         background: white; 
@@ -42,7 +43,7 @@ a {color: darkgray;}
      img {display: none;}
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 650px){
     .sectionheaders {float: none;
                     width: 100%;
                     border-bottom: 1px solid white;}
@@ -50,4 +51,8 @@ a {color: darkgray;}
               border-left: none;
               width: 100%;}
      img {display: none;}
+}
+
+@media print {
+     body {font-size: 1.0em;}
 }
