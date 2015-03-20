@@ -4,9 +4,7 @@ body {background-image: url(../images/grey_wash_wall.png);
 
 a {color: darkgray;}
 
-#wholedoc {max-width: 900px;
-           margin-left: auto;
-           margin-right: auto;}
+#wholedoc {}
 
 #pagetitle {border-bottom: 1px solid white;}
 
@@ -56,3 +54,33 @@ a {color: darkgray;}
 @media print {
      body {font-size: 1.0em;}
 }
+
+
+section.view.parallax {
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  clear: both;
+}
+section.view.parallax h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.view.parallax-1 {
+  background-image: url("../images/Grad.jpg");
+}
+section.view.parallax-2 {
+  background-image: url("../images/Newtown.jpg");
+}
+section.view.parallax-3 {
+  background-image: url("../images/HCC.jpg");
